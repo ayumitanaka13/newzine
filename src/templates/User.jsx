@@ -9,7 +9,12 @@ const User = () => {
 
   return (
     <div className="Page">
-      <Button button="Sign Out" onClick={() => dispatch(signOut())} />
+      <Button
+        type="button"
+        value="Sign Out"
+        button="Sign Out"
+        onClick={() => dispatch(signOut())}
+      />
     </div>
   );
 };

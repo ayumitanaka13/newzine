@@ -94,6 +94,7 @@ export const signUp = (username, email, password, confirmPassword) => {
             .then(() => {
               dispatch(push("/"));
             });
+          dispatch(push("/signin"));
         }
       });
   };

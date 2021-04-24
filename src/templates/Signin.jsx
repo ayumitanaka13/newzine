@@ -26,8 +26,8 @@ const Signin = () => {
 
   return (
     <div className="Page flex-wrap">
-      <div className="w-5/6 lg:w-1/2 bg-white bg-opacity-10 p-16 rounded-md shadow-md">
-        <h2 className="text-center border">Sign In</h2>
+      <div className="w-5/6 lg:w-1/2 bg-white bg-opacity-10 p-8 sm:p-16 rounded-lg shadow-md">
+        <h2 className="text-center">Sign In</h2>
         <form action="" className="w-full">
           <TextInput
             type="email"
